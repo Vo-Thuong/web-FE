@@ -33,15 +33,24 @@ export default function ProductGallery() {
             Category
           </h3>
           <label className="flex items-center gap-2">
-            <input type="checkbox" className="h-3 w-3 rounded border-gray-300" />
+            <input
+              type="checkbox"
+              className="h-3 w-3 rounded border-gray-300"
+            />
             <span>Kids</span>
           </label>
           <label className="flex items-center gap-2">
-            <input type="checkbox" className="h-3 w-3 rounded border-gray-300" />
+            <input
+              type="checkbox"
+              className="h-3 w-3 rounded border-gray-300"
+            />
             <span>Mens</span>
           </label>
           <label className="flex items-center gap-2">
-            <input type="checkbox" className="h-3 w-3 rounded border-gray-300" />
+            <input
+              type="checkbox"
+              className="h-3 w-3 rounded border-gray-300"
+            />
             <span>Womens</span>
           </label>
         </div>
@@ -69,7 +78,10 @@ export default function ProductGallery() {
           </h3>
           {["Black", "Blue", "Gray", "Green", "Red"].map((c) => (
             <label key={c} className="flex items-center gap-2">
-              <input type="checkbox" className="h-3 w-3 rounded border-gray-300" />
+              <input
+                type="checkbox"
+                className="h-3 w-3 rounded border-gray-300"
+              />
               <span>{c}</span>
             </label>
           ))}
@@ -82,7 +94,10 @@ export default function ProductGallery() {
           </h3>
           {["Adidas", "Balenciaga", "Balkin", "Burberry", "Chloe"].map((b) => (
             <label key={b} className="flex items-center gap-2">
-              <input type="checkbox" className="h-3 w-3 rounded border-gray-300" />
+              <input
+                type="checkbox"
+                className="h-3 w-3 rounded border-gray-300"
+              />
               <span>{b}</span>
             </label>
           ))}
