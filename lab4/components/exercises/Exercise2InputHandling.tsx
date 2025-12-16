@@ -10,7 +10,7 @@ import {
 import React, { useState } from "react";
 
 export default function Exercise2InputHandling() {
-  const [inputValue, setInputValue] = useState("hainguyenle");
+  const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
