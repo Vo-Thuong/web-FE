@@ -29,7 +29,7 @@ export default function Exercise3MouseEvents() {
           Exercise 3: Handling Mouse Events
         </CardTitle>
         <CardDescription>
-          Di chuột vào box bên dưới để thay đổi **màu nền và nội dung chữ**
+          Di chuột vào box bên dưới để thay đổi màu nền và nội dung chữ
         </CardDescription>
       </CardHeader>
       <CardContent>

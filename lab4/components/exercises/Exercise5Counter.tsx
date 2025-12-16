@@ -34,7 +34,7 @@ export default function Exercise5Counter() {
           Exercise 5: Counter
         </CardTitle>
         <CardDescription>
-          Sử dụng các button để tăng/giảm giá trị counter
+          Sử dụng các button để tăng/giảm giá trị
         </CardDescription>
       </CardHeader>
       <CardContent className="flex items-center space-x-4">
