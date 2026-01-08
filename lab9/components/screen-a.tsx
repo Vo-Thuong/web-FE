@@ -6,10 +6,9 @@ import { RootState } from "@/lib/store";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ModeToggle } from "./ModeToggle";
+import { ModeToggle } from "./mode-toggle";
 import { Eye, EyeOff, Loader2 } from "lucide-react";
 import axios from "axios";
-
 
 interface LoginResponse {
   id: number;

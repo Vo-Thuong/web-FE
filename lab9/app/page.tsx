@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ScreenA from "@/components/ScreenA";
-import ScreenB from "@/components/ScreenB";
+import ScreenA from "@/components/screen-a";
+import ScreenB from "@/components/screen-b";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("a");
