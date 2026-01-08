@@ -28,8 +28,8 @@ export default function ScreenA({
 }: {
   setActiveTab: (val: string) => void;
 }) {
-  const [username, setUsername] = useState("emilys");
-  const [password, setPassword] = useState("emilyspass");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
 
